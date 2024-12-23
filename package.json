@@ -1,0 +1,11 @@
+{
+  "name": "generate-css-from-figma-plugin-download-tokens",
+  "version": "1.0.0",
+  "description": "generate scss from figma-plugin-download-tokens",
+  "main": "index.mjs",
+  "author": "zabefofoon",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^3.4.2"
+  }
+}
