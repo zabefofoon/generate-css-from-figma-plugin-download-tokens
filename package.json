@@ -1,11 +1,20 @@
 {
-  "name": "generate-css-from-figma-plugin-download-tokens",
-  "version": "1.0.0",
+  "name": "@zabefofoon/g5t",
+  "version": "0.2.0",
   "description": "generate scss from figma-plugin-download-tokens",
   "main": "index.mjs",
   "author": "zabefofoon",
   "license": "MIT",
   "dependencies": {
     "prettier": "^3.4.2"
+  },
+  "scripts": {
+    "generate": "node index.mjs"
+  },
+  "bin": {
+    "g5t": "index.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

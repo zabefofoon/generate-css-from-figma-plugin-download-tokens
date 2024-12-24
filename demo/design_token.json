@@ -1,0 +1,52 @@
+{
+  "Rounded": {
+    "pc": { "--rounded-sm": 5, "--rounded-md": 10 },
+    "mo": { "--rounded-sm": 5, "--rounded-md": 10 }
+  },
+  "colors": {
+    "white": {
+      "--bg-base": "#dfe6e9",
+      "--border-default": "#dfe6e9",
+      "--text-default": "#2d3436"
+    },
+    "dark": {
+      "--bg-base": "#2d3436",
+      "--border-default": "#636e72",
+      "--text-default": "#ffffff"
+    }
+  },
+  "texts": {
+    "pc": {
+      "--heading-1": {
+        "font-size": "24px",
+        "font-weight": 700,
+        "line-height": "unset",
+        "letter-spacing": "0px"
+      },
+      "--default": {
+        "font-size": "16px",
+        "font-weight": 400,
+        "line-height": "unset",
+        "letter-spacing": "0px"
+      }
+    },
+    "mo": {
+      "--heading1": {
+        "font-size": "20px",
+        "font-weight": 700,
+        "line-height": "unset",
+        "letter-spacing": "0px"
+      },
+      "--default": {
+        "font-size": "14px",
+        "font-weight": 400,
+        "line-height": "unset",
+        "letter-spacing": "0px"
+      }
+    }
+  },
+  "shadows": {
+    "mo": { "--shadow-md": "0px 4px 4px 0px rgba(0, 0, 0, 0.25)" },
+    "pc": { "--shadow-md": "0px 4px 4px 0px rgba(0, 0, 0, 0.25)" }
+  }
+}
