@@ -28,7 +28,7 @@ export const generateTextClass = (designToken) => {
     return Object.keys(designToken.texts.pc).reduce((acc, current) => {
         return (
             acc +
-            `.${current.replaceAll("--", "")} { font-size: var(${current}-font-size); font-weight: var(${current}-font-style); line-height: var(${current}-line-height); letter-spacing: var(${current}-letter-spacing);};`
+            `.${current.replaceAll("--", "")} { font-size: var(${current}-font-size); font-weight: var(${current}-font-weight); line-height: var(${current}-line-height); letter-spacing: var(${current}-letter-spacing);};`
         )
     }, "")
 }

@@ -51,13 +51,13 @@ html {
 }
 .heading-1 {
   font-size: var(--heading-1-font-size);
-  font-weight: var(--heading-1-font-style);
+  font-weight: var(--heading-1-font-weight);
   line-height: var(--heading-1-line-height);
   letter-spacing: var(--heading-1-letter-spacing);
 }
 .default {
   font-size: var(--default-font-size);
-  font-weight: var(--default-font-style);
+  font-weight: var(--default-font-weight);
   line-height: var(--default-line-height);
   letter-spacing: var(--default-letter-spacing);
 }
